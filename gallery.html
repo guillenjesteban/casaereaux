@@ -29,7 +29,7 @@
 
           <nav class="desktop"
           role="navigation">
-                <ul class="flexbox-container">
+                <ul class="flexbox-container gallerynav">
                   <a href="#home"><li>Home</li></a>
                   <a href="#concept"><li>About Us</li></a>
                   <a href="#wines"><li>The Wines</li></a>
@@ -137,7 +137,6 @@
                             <p>We also participated in Argentina's President Official trips to Beijing, Tokyo, Mumbai and New Delhi.</p>
                         </div>
                         <div data-aos="slide-up" class="image-container">
-                                <img src="/images/presidentialvisitsinothercountries.jpg" alt="events in other countries">
                                 <img src="/images/presidentialvisitsinothercountries3.jpg" alt="events in other countries">
                         </div>
                     </div>
@@ -158,11 +157,9 @@
                 </div>
              </section>
              
-
-
-
             <footer id="contact">
-                <div class="footer-container">
+                <div
+                class="footer-container gallerycontact">
                     <h2>CONTACT</h2>
                     <p><span>Vineyards and Winery:</span> Ruta 60 s/n y Canal San Martin- El Paraiso- 5529, Maipu, Mendoza, Argentina</p>
                     <p><span>Commercial Office:</span> Andres Maria Ampere 6150, Piso 1 / Oficina 20. Villa Belgrano, Cordoba, Argentina.</p>
@@ -175,6 +172,7 @@
 
             <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
             <script>
+                   AOS.init()
                 AOS.init({
   // Global settings:
   disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function

@@ -513,7 +513,169 @@ span {
 
 
 
-@media screen and (max-width: 414px) {
+@media only screen and (min-width: 1025px) and (max-width: 1439px){
+
+   .description {
+     width:100%;
+   }
+
+   img.bottle {
+    width: 250%;
+    margin-top: -30px;
+    margin-left: -95%;
+
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+p {
+  font-size: 1.3em;
+}
+
+h3 {
+  width: 130%;
+  font-size: 1.7em;
+  margin-top: 200px;
+  margin-left: 100px;
+}
+h4 {
+
+  font-size: 2em;
+
+}
+
+.list li {
+  font-size: 2em;
+}
+}
+
+/* BOTON GALERIA */
+
+.tripctic .centrado {
+  width: 300%;
+}
+.btn {
+  display: block;
+  margin-left: 35%;
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 2700px){
+
+.content {
+  width: 100%;
+}
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+
+h3 {
+  width: 100%;
+  font-size: 2em;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+h4 {
+
+  font-size: 1.5em;
+
+}
+
+.list li {
+  font-size: 1.5em;
+}
+}
+
+.flexbox-container {
+  font-size: 1.4em;
+  margin: 1%;
+  right: 250px;
+
+}
+.flexbox-container li {
+  font-size: 1.4em;
+  margin: 1%;
+
+}
+.flexbox-container a {
+margin: 1%;
+font-weight: bold;
+padding: 2%
+}
+
+.logo {
+  margin-top: 12%;
+}
+
+.content {
+  min-width: 50%;
+  max-width: 70%
+ }
+ 
+.img-wrapper {
+  height: 140vh;
+}
+
+@media only screen and (min-width: 761px) and (max-width: 1024px) {
+
+
+  .img-wrapper {
+    height: 100vh;
+  }
+  .flexbox-container {
+    font-size: 1em;
+    margin: 1%;
+    right: 250px;
+  
+  }
+  .flexbox-container li {
+    font-size: 1em;
+    margin: 1%;
+  
+  }
+  .flexbox-container a {
+  margin: 1.4%;
+  font-weight: bold;
+  padding: 2%
+  }
+
+.content {
+
+
+ min-width: 710px;
+}
+img.bottle {
+width: 130%;
+margin-left: -55px;
+margin-top: 20px;
+}
+
+h1 {
+  font-size: 1.8em;
+}
+}
+
+.footer-container {
+  margin-top: -100px;
+  border-top: 1px solid black;
+}
+
+
+@media only screen and (max-width: 770px)  {
 
 .logo img {
   width: 70%;
@@ -629,8 +791,9 @@ span {
   width: 100%;
 }
 
+/* GALLERY MEDIA QUERIES  */
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 767px) {
 
   .galleryitem-container {
     display: flex;
@@ -646,39 +809,156 @@ span {
 
 
   .text-container {
-    margin-top: 35%;
+    margin-top: 15%;
     margin-left: 5%;
+    padding: 10%;
     width: 90%;
     background: rgba(255, 255, 255, 0.7);
   }
   
   .text-container h1 {
-    margin: 10%;
+    margin: 5%;
     width: 90%;
-    line-height: 110%;
-    border: none;
+    line-height: 170%;
   }
   
   .text-container p {
-    width: 80%;
-    margin-left: 10%;
+    width: 90%;
+    margin-left: 5%;
     font-weight: bold;
-    font-size: 0.9em;
-    line-height: 150%;
+    font-size: 1.1em;
+    line-height: 210%;
   
   }
   
   
   .image-container {
-    width: 100vw;
-    margin-top: 10%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 0px;
   } 
   
-  .image-container img {
-    width: 100%;
+  .gallerycontact {
+    margin: 5%;
   }
   
 
 
 
 }  
+
+
+@media only screen and (min-width: 1740px) and (max-width: 2700px){
+  .gallerynav li {
+    font-size: 1em;
+  }
+
+  .gallerynav {
+    margin-left: 15%;
+    margin-top: -0.5%;
+  }
+  
+  .text-container p {
+    font-size: 1.6em;
+  }
+
+  .text-container h1 {
+    font-size: 2.7em;
+  }
+
+  .gallerycontact {
+    margin-top: 5%;
+  }
+
+  .gallerycontact h2 {
+    font-size: 2.7em;
+  }
+
+  .gallerycontact p {
+    font-size: 1.2em;
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1740px){
+
+  .text-container h1 {
+    font-size: 2.5em;
+  }
+
+
+  .text-container p {
+    font-size: 1.4em;
+  }
+
+  .gallerycontact {
+    margin-top: 5%;
+  }
+
+  .gallerycontact h2 {
+    font-size: 3em;
+  }
+
+  .gallerycontact p {
+    font-size: 1.2em;
+  }
+
+  .gallerynav li {
+    font-size: 0.8em;
+  }
+  
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
+  .gallerynav li {
+    font-size: 0.7em;
+  }
+
+  .gallerynav {
+    margin-left: 15%;
+    margin-top: -1.5%;
+  }
+
+  .text-container h1 {
+    font-size: 1.5em;
+  }
+
+
+  .text-container p {
+    font-size: 1.1em;
+  }
+
+  .gallerycontact {
+    margin-top: 5%;
+  }
+
+  .gallerycontact h2 {
+    font-size: 2em;
+  }
+
+  .gallerycontact p {
+    font-size: 1.1em;
+    margin: 2%;
+  }
+
+  .galleryitem-container {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    /* margin-left: 100px; */
+    background-image: url(/images/bgd-firulete.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .text-container {
+    width: 90%;
+    padding: 8%;
+  }
+
+  .image-container {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 0px;
+  }
+}
