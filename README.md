@@ -1,11 +1,11 @@
 # Casa Ereaux
 
-[See live demo](https://casaereaux.netlify.app/)
+##[See live demo](https://casaereaux.netlify.app/)
 
-###_Brand:_ Casa Ereaux
-###_Product:_ Wines from Argentina
+#####_Brand:_ Casa Ereaux
+#####_Product:_ Wines from Argentina
 
-###_Challenge:_
+#####_Challenge:_
 
 Casa Ereaux is a brand created in Argentina and exported to China, the main goal was to create a web where clients could know more about the brand, its location, 
 its wine terroir, the products, the events, and more. 
